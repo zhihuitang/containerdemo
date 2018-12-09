@@ -33,7 +33,7 @@ class LobbyViewController: UIViewController {
     func insertNewObject(_ sender: Any) {
         let date = NSDate()
         notificationViewController?.insertNewObject(date)
-        //notificationTableViewController?.insertNewObject(date)
+        notificationTableViewController?.insertNewObject(date)
     }
 
     /*
