@@ -15,6 +15,9 @@
 		985AF1B921BBA8B1004DED4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 985AF1B721BBA8B1004DED4C /* LaunchScreen.storyboard */; };
 		985AF1C421BBA8B1004DED4C /* containerdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AF1C321BBA8B1004DED4C /* containerdemoTests.swift */; };
 		985AF1CF21BBA8B2004DED4C /* containerdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AF1CE21BBA8B2004DED4C /* containerdemoUITests.swift */; };
+		985AF1DD21BBAB0C004DED4C /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AF1DC21BBAB0C004DED4C /* NotificationTableViewController.swift */; };
+		985AF1DF21BBAB2B004DED4C /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AF1DE21BBAB2B004DED4C /* LobbyViewController.swift */; };
+		985AF1E121BBBAF6004DED4C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985AF1E021BBBAF6004DED4C /* NotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		985AF1CA21BBA8B2004DED4C /* containerdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = containerdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		985AF1CE21BBA8B2004DED4C /* containerdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = containerdemoUITests.swift; sourceTree = "<group>"; };
 		985AF1D021BBA8B2004DED4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		985AF1DC21BBAB0C004DED4C /* NotificationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
+		985AF1DE21BBAB2B004DED4C /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		985AF1E021BBBAF6004DED4C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				985AF1B521BBA8B1004DED4C /* Assets.xcassets */,
 				985AF1B721BBA8B1004DED4C /* LaunchScreen.storyboard */,
 				985AF1BA21BBA8B1004DED4C /* Info.plist */,
+				985AF1DE21BBAB2B004DED4C /* LobbyViewController.swift */,
+				985AF1E021BBBAF6004DED4C /* NotificationViewController.swift */,
+				985AF1DC21BBAB0C004DED4C /* NotificationTableViewController.swift */,
 			);
 			path = containerdemo;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				985AF1B121BBA8AF004DED4C /* DetailViewController.swift in Sources */,
+				985AF1DF21BBAB2B004DED4C /* LobbyViewController.swift in Sources */,
+				985AF1E121BBBAF6004DED4C /* NotificationViewController.swift in Sources */,
 				985AF1AF21BBA8AF004DED4C /* MasterViewController.swift in Sources */,
+				985AF1DD21BBAB0C004DED4C /* NotificationTableViewController.swift in Sources */,
 				985AF1AD21BBA8AF004DED4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
